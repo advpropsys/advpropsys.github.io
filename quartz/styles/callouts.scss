@@ -14,60 +14,60 @@
   }
 
   &[data-callout="note"] {
-    --color: #448aff;
-    --border: #448aff44;
-    --bg: #448aff10;
+    --color: #8b7355;
+    --border: #8b735544;
+    --bg: #8b735510;
   }
 
   &[data-callout="abstract"] {
-    --color: #00b0ff;
-    --border: #00b0ff44;
-    --bg: #00b0ff10;
+    --color: #a0956b;
+    --border: #a0956b44;
+    --bg: #a0956b10;
   }
 
   &[data-callout="info"],
   &[data-callout="todo"] {
-    --color: #00b8d4;
-    --border: #00b8d444;
-    --bg: #00b8d410;
+    --color: #b8860b;
+    --border: #b8860b44;
+    --bg: #b8860b10;
   }
 
   &[data-callout="tip"] {
-    --color: #00bfa5;
-    --border: #00bfa544;
-    --bg: #00bfa510;
+    --color: #cd853f;
+    --border: #cd853f44;
+    --bg: #cd853f10;
   }
 
   &[data-callout="success"] {
-    --color: #09ad7a;
-    --border: #09ad7144;
-    --bg: #09ad7110;
+    --color: #6b8e23;
+    --border: #6b8e2344;
+    --bg: #6b8e2310;
   }
 
   &[data-callout="question"] {
-    --color: #dba642;
-    --border: #dba64244;
-    --bg: #dba64210;
+    --color: #d4af37;
+    --border: #d4af3744;
+    --bg: #d4af3710;
   }
 
   &[data-callout="warning"] {
-    --color: #db8942;
-    --border: #db894244;
-    --bg: #db894210;
+    --color: #daa520;
+    --border: #daa52044;
+    --bg: #daa52010;
   }
 
   &[data-callout="failure"],
   &[data-callout="danger"],
   &[data-callout="bug"] {
-    --color: #db4242;
-    --border: #db424244;
-    --bg: #db424210;
+    --color: #cd5c5c;
+    --border: #cd5c5c44;
+    --bg: #cd5c5c10;
   }
 
   &[data-callout="example"] {
-    --color: #7a43b5;
-    --border: #7a43b544;
-    --bg: #7a43b510;
+    --color: #9370db;
+    --border: #9370db44;
+    --bg: #9370db10;
   }
 
   &[data-callout="quote"] {

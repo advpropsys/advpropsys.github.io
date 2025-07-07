@@ -3,13 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "spike",
+    pageTitle: "advprop",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "spikedoanz.github.io",
+    baseUrl: "advprop.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -19,60 +19,26 @@ const config: QuartzConfig = {
         code: "JetBrains Mono",
       },
       colors: {
-        // lightMode: {
-        //   light: "#dce0e8",     // background
-        //   lightgray: "#ccd0da", // dashed lines
-        //   gray: "#eff1f5",
-        //   darkgray: "#7c7f93",  // regular text
-        //   dark: "#4c4f69",      // bold text
-        //   secondary: "#f38ba8", // hyperlinks and site header
-        //   tertiary: "#9ca0b0",  // cursor highlight
-        //   highlight: "rgba(0, 0, 0, 0)",
-        // },
-        darkMode: { // catpuccin mocha
-          light: "#11111b",
-          lightgray: "#6c7086",
-          gray: "#1e1e2e",
-          darkgray: "#b1b1b1",
-          dark: "#cdd6f4",
-          secondary: "#f38ba8",
-          tertiary: "#45475a",
-          highlight: "rgba(0, 0, 0, 0)",
+        darkMode: { // Professional dark theme with aurum accents
+          light: "#0d0d0d",        // Very dark background
+          lightgray: "#2a2a2a",    // Dark gray for borders/lines
+          gray: "#404040",         // Medium gray
+          darkgray: "#d4d4d4",     // Light gray text
+          dark: "#f5f5f5",         // White text for headers
+          secondary: "#d4af37",    // Gold/aurum for links
+          tertiary: "#b8860b",     // Darker gold for hover states
+          highlight: "rgba(212, 175, 55, 0.15)", // Subtle gold highlight
         },
-        lightMode: { // rosepine dawn 
-          light: "#faf4ed",
-          lightgray: "#cecacd",
-          gray: "#575279",
-          darkgray: "#575279",
-          dark: "#797593",
-          secondary: "#b4637a",
-          tertiary: "#dfdad9",
-          highlight: "rgba(0, 0, 0, 0)",
+        lightMode: { // Clean light theme with warm beige tones
+          light: "#fefefe",        // Clean white background
+          lightgray: "#e8e8e8",    // Light gray borders
+          gray: "#888888",         // Medium gray
+          darkgray: "#333333",     // Dark gray text
+          dark: "#1a1a1a",         // Black for headers
+          secondary: "#b8860b",    // Darker gold for links
+          tertiary: "#8b7355",     // Warm brown for hover
+          highlight: "rgba(184, 134, 11, 0.1)", // Subtle gold highlight
         },
-        // darkMode: { // catpuccin mocha
-        //   light: "black",
-        //   lightgray: "grey",
-        //   gray: "white",
-        //   darkgray: "white",
-        //   dark: "white",
-        //   secondary: "grey",
-        //   tertiary: "grey",
-        //   highlight: "rgba(0, 0, 0, 0)",
-        // },
-        // lightMode: { // rosepine dawn 
-        //   light: "white",
-        //   lightgray: "grey",
-        //   gray: "black",
-        //   darkgray: "black",
-        //   dark: "black",
-        //   secondary: "grey",
-        //   tertiary: "grey",
-        //   highlight: "rgba(0, 0, 0, 0)",
-        // },
-
-
-
-
       },
     },
   },

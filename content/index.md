@@ -1,43 +1,38 @@
 ---
-title: spike
+title: advprop
 ---
 
-### [[index|supaiku dot com]]
+### [[index|advprop dot com]]
 
-heya! i'm [[index|spike]] -- ml researcher by
+heya! i'm [[index|advprop]] -- ml engineer specializing in
+<b onclick="document.getElementById('darkmode-toggle').click();">llm</b> 
+optimization by
 <b onclick="document.getElementById('darkmode-toggle').click();">day</b>, 
-weeb by
+researcher by
 <b onclick="document.getElementById('darkmode-toggle').click();">night</b>.
 
-if you've gotten this far, feel free to say hi wherever you find me! you can DM me on [twitter](https://twitter.com/spikedoanz) or email me at spikedoanz at gmail dot com. 
+if you've gotten this far, feel free to say hi wherever you find me! you can DM me on [twitter](https://twitter.com/advprop) or email me at advprop at gmail dot com. 
 
 
 #### posts 
 
-2025-03-20 :: [[attention-is-logarithmic|attention is logarithmic]]
+2024-12-01 :: [[llm-unix|llm is the new unix hood classic]] (template post)
 
-2024-07-16 :: [[from-bits-to-intelligence|from bits to intelligence]]
-
-2024-05-25 :: [[taking-back-the-web|taking back the web]]
+<!-- Add your new posts here using this format:
+YYYY-MM-DD :: [[filename|title]]
+-->
 
 #### share 
 
-
-2025-04-04 :: [favorite reads](https://docs.google.com/spreadsheets/d/e/2PACX-1vRKIMRHaKi5Q4JbPcqyf0Wp2u0i3t_VUkQCnw5e20-klHWlz2ROb40jyV1Zjyw9IpmzuTsVUv-T4Ixn/pubhtml)
-
-2024-09-02 :: [[favorite-links|favorite links]]
-
-2024-08-25 :: [[anime-reviews|anime reviews]]
-
+<!-- Add your resources/links here
+YYYY-MM-DD :: [[page-name|description]]
+-->
 
 #### links
 
-[github](https://github.com/spikedoanz) :: 
-[twitter](https://twitter.com/spikedoanz) :: 
-[email](mailto:spikedoanz@gmail.com)
-
-
-
+[github](https://github.com/advprop) :: 
+[twitter](https://twitter.com/advprop) :: 
+[email](mailto:advprop@gmail.com)
 
 <!-- :: [[about]] :: -->
 <!-- [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSf-6VD0DNGgLSeFmMInbvmZrmVspTCItEESMpeQaqgop4HfBg/viewform?usp=sf_link) -->
