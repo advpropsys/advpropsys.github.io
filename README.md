@@ -1,10 +1,3 @@
-# quartz
-Simple second brain and digital garden.
+npm i
 
-```shell
-# Installation
-go install github.com/jackyzha0/hugo-obsidian
-
-# Run
-hugo-obsidian -input=content -output=data
-```
+npx quartz build --serve
