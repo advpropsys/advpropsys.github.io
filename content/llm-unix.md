@@ -2,7 +2,7 @@
 title: llm is the new unix hood classic
 ---
 
-### [[index|supaiku dot com]]
+### [[index|advprop dot com]]
 
 <h1 onclick="document.getElementById('darkmode-toggle').click(); return false;">
 llm is the new unix hood classic
@@ -16,7 +16,7 @@ llm is the new unix hood classic
 
 you can pipe stuff into it, for example, to get the tldr of this article:
 
-> _**§** curl https://supaiku.com/llm-unix | llm -s "tldr this essay please"_
+> _**§** curl https://advprop.com/llm-unix | llm -s "tldr this essay please"_
 
 **this makes it absurdly powerful.**
 
@@ -58,23 +58,23 @@ simply pipe it in
 
 ---
 
-## "hmm i wonder what anime spike is watching right now" 
+## "hmm i wonder what research advprop is reading" 
 
 llm eats rss feeds for breakfast.
 
-take an rss url, for example my mal rss feed: https://myanimelist.net/rss.php?type=rw&u=spikedoanzz
+take an rss url, for example an arxiv feed or research newsletter
 
 curl into rss cleaning tool into llm
 
-> _**§** curl "https://myanimelist.net/rss.php?type=rw&u=spikedoanzz" | clean-rss | llm -s "what anime is this person watching"_
+> _**§** curl "http://export.arxiv.org/rss/cs.AI" | clean-rss | llm -s "what are the recent AI research trends here"_
 
->This person is watching several anime shows, but here are the ones they seem to be actively following:
+>This research feed shows recent trends in AI including:
 >
->1. **Monogatari Series: Off & Monster Season**: Watching, but not sure how many episodes are in the season (5 of ?).
+>1. **Large Language Model Optimization**: Several papers on improving efficiency and inference speed of LLMs
 >
->2. **Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san**: Also on episode 5 of 12.
+>2. **Multi-modal AI Systems**: Research on combining text, vision, and other modalities
 >
->3. **Make Heroine ga Oosugiru!**: On episode 3 of 12.
+>3. **AI Safety and Alignment**: Work on making AI systems more reliable and aligned with human values
 
 this works for all sorts of rss feeds. go crazy.
 
@@ -94,7 +94,7 @@ short and sweet, code and writing sanity checker in the terminal.
 
 cat, pipe, edit, repeat.
 
-> _**§** cat llm-unix.md | llma -s "proofread this real quick, whatever you respond with will be put into the vibe check section obviously"_
+> _**§** cat llm-unix.md | llm -s "proofread this real quick, whatever you respond with will be put into the vibe check section obviously"_
 
 >I've reviewed the content and it looks good overall. Here are a few minor suggestions:
 >
@@ -110,8 +110,8 @@ cat, pipe, edit, repeat.
 
 ---
 
-if you have any questions, suggestions or feedback, you can DM me on [twitter](https://x.com/spikedoanz)
+if you have any questions, suggestions or feedback, you can DM me on [twitter](https://x.com/advprop)
 
-or email me at spikedoanz@gmail.com
+or email me at advprop@gmail.com
 
-or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSf-6VD0DNGgLSeFmMInbvmZrmVspTCItEESMpeQaqgop4HfBg/viewform?usp=sf_link)
+<!-- or [leave anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSf-6VD0DNGgLSeFmMInbvmZrmVspTCItEESMpeQaqgop4HfBg/viewform?usp=sf_link) -->

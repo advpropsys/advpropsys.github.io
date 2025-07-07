@@ -2,16 +2,23 @@
 title: archive
 ---
 
-### [[index|supaiku dot com]]
+### [[index|advprop dot com]]
 
-<h1 href="" onclick="document.getElementById('darkmode-toggle').click(); return false;">
+<h1 onclick="document.getElementById('darkmode-toggle').click();">
 archive
 </h1>
 
-
+---
+>older posts and drafts
 ---
 
-1996-00-00 :: [[staring-into-the-singularity| eliezer yudkowsky -- staring into the singularity]]
+This is where older posts and draft content live.
 
-2000-04-30 :: [[why-python|eric raymond -- why python?]]
+<!-- Add archived posts here using this format:
+#### YYYY-MM-DD :: [[filename|title]]
+description or excerpt
+-->
+
+#### template posts
+- [[llm-unix|llm is the new unix hood classic]] - example of a technical tutorial post
 
