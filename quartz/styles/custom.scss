@@ -1,5 +1,28 @@
 // put your custom CSS here!
 
+// Force light mode
+:root {
+  color-scheme: light !important;
+}
+
+body {
+  color-scheme: light !important;
+  background: var(--light) !important;
+  color: var(--darkgray) !important;
+}
+
+// Remove dark mode completely
+[saved-theme="dark"] {
+  --light: #ffffff !important;
+  --lightgray: #f6f6f6 !important;
+  --gray: #666666 !important;
+  --darkgray: #2c2c2c !important;
+  --dark: #000000 !important;
+  --secondary: #0066cc !important;
+  --tertiary: #0052a3 !important;
+  --highlight: rgba(0, 102, 204, 0.1) !important;
+}
+
 // Smooth text loading animations
 @keyframes fadeInUp {
   from {
@@ -107,58 +130,101 @@
   }
 }
 
-// Increase font sizes for better readability
+// Clean, readable typography
 html {
-  font-size: 18px; // Base font size increase from default 16px
+  font-size: 18px !important; // Larger base font size
+  -webkit-text-size-adjust: 100%; // Prevent iOS font scaling
+  -ms-text-size-adjust: 100%; // Prevent Windows Phone font scaling
+  text-size-adjust: 100%; // Prevent font scaling
 }
 
-// Larger body text
+// Body text styling
 body,
 section {
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: 1.3rem !important;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-// Increase paragraph and list text
+// Paragraph and list text
 p,
 li,
 tbody {
-  font-size: 1.1rem;
-  line-height: 1.8rem;
+  font-size: 1.3rem !important;
+  line-height: 1.7;
+  color: var(--darkgray);
 }
 
-// Larger headings
+// Clean heading styles
 h1 {
   font-size: 2.2rem !important;
+  font-weight: 700;
+  margin: 2rem 0 1rem 0;
+  letter-spacing: -0.02em;
 }
 
 h2 {
   font-size: 1.8rem !important;
+  font-weight: 700;
+  margin: 1.8rem 0 0.8rem 0;
+  letter-spacing: -0.01em;
 }
 
 h3 {
-  font-size: 1.4rem !important;
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem 0;
 }
 
-h4,
+h4 {
+  font-size: 1.3rem !important;
+  font-weight: 600;
+  margin: 1.2rem 0 0.5rem 0;
+}
+
 h5,
 h6 {
   font-size: 1.2rem !important;
+  font-weight: 600;
+  margin: 1.2rem 0 0.5rem 0;
 }
 
-// Larger code font
+// Code styling
 code {
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
+  padding: 0.2em 0.4em;
+  background: var(--lightgray);
+  border-radius: 3px;
+  font-family: var(--codeFont);
 }
 
-pre code {
-  font-size: 0.95rem !important;
+pre {
+  background: var(--lightgray) !important;
+  border: none !important;
+  border-radius: 6px;
+  padding: 1.2rem !important;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  
+  code {
+    font-size: 0.9rem !important;
+    background: transparent;
+    padding: 0;
+    line-height: 1.5;
+  }
 }
 
-// Increase blockquote text
+// Blockquote styling
 blockquote {
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.7;
+  border-left: 3px solid var(--gray);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--gray);
 }
 
 // Enhanced responsiveness for larger displays
@@ -215,4 +281,171 @@ blockquote {
   .page article li {
     max-width: 80ch; // Optimal reading length
   }
+}
+
+// Additional clean styling
+// Remove borders and shadows for cleaner look
+.page article {
+  & table {
+    border: none;
+    border-collapse: collapse;
+    
+    th, td {
+      border: 1px solid var(--lightgray);
+      padding: 0.75rem;
+    }
+  }
+}
+
+// Clean link styling
+a {
+  text-decoration: none;
+  color: var(--secondary);
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Clean horizontal rule
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 2rem 0;
+}
+
+// Remove excessive styling from lists
+ul, ol {
+  padding-left: 1.5rem;
+  
+  li {
+    margin: 0.5rem 0;
+  }
+}
+
+// Cleaner table of contents
+.toc {
+  background: transparent;
+  border: none;
+  
+  & .depth-1,
+  & .depth-2,
+  & .depth-3 {
+    font-size: 0.95rem;
+  }
+}
+
+// Simplify page layout
+.page {
+  background: var(--light);
+  
+  & article {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+}
+
+// Clean header - remove all borders
+.page-header {
+  border: none !important;
+  border-bottom: none !important;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+// Remove the top border/divider
+#quartz-body {
+  border-top: none !important;
+}
+
+.center {
+  border-top: none !important;
+}
+
+// Remove any header borders
+header {
+  border: none !important;
+  border-bottom: none !important;
+}
+
+// Simplify sidebar
+.sidebar {
+  background: transparent;
+  border: none;
+  
+  & h3 {
+    font-size: 1rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+  }
+}
+
+// Remove footer completely
+footer {
+  display: none !important;
+}
+
+.footer {
+  display: none !important;
+}
+
+// Remove any footer borders/dividers
+hr:last-child,
+.page > *:last-child {
+  border-bottom: none !important;
+}
+
+// Update color scheme with matte aurum
+:root {
+  --secondary: #c9a961 !important; // Matte gold/aurum
+  --tertiary: #b8995a !important; // Darker matte gold for hover
+  --highlight: rgba(201, 169, 97, 0.15) !important; // Subtle gold highlight
+}
+
+// Override for both light and dark modes
+[saved-theme="dark"],
+[saved-theme="light"],
+body {
+  --secondary: #c9a961 !important;
+  --tertiary: #b8995a !important;
+  --highlight: rgba(201, 169, 97, 0.15) !important;
+}
+
+// Fix bold and italic text sizing
+strong, b {
+  font-size: inherit !important;
+  font-weight: 600;
+}
+
+em, i {
+  font-size: inherit !important;
+  font-style: italic;
+}
+
+// Ensure headers are properly sized relative to body
+h1 {
+  font-size: 2.2rem !important;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem !important;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.3rem !important;
+  font-weight: 600;
+}
+
+h5, h6 {
+  font-size: 1.2rem !important;
+  font-weight: 600;
 }

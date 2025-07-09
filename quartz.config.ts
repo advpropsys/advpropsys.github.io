@@ -14,9 +14,9 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "JetBrains Mono",
-        body: "JetBrains Mono",
-        code: "JetBrains Mono",
+        header: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+        body: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+        code: "ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace",
       },
       colors: {
         darkMode: { // Professional dark theme with aurum accents
@@ -29,15 +29,15 @@ const config: QuartzConfig = {
           tertiary: "#b8860b",     // Darker gold for hover states
           highlight: "rgba(212, 175, 55, 0.15)", // Subtle gold highlight
         },
-        lightMode: { // Clean light theme with warm beige tones
-          light: "#fefefe",        // Clean white background
-          lightgray: "#e8e8e8",    // Light gray borders
-          gray: "#888888",         // Medium gray
-          darkgray: "#333333",     // Dark gray text
-          dark: "#1a1a1a",         // Black for headers
-          secondary: "#b8860b",    // Darker gold for links
-          tertiary: "#8b7355",     // Warm brown for hover
-          highlight: "rgba(184, 134, 11, 0.1)", // Subtle gold highlight
+        lightMode: { // Clean minimal theme with matte aurum accents
+          light: "#ffffff",        // Pure white background
+          lightgray: "#f6f6f6",    // Very light gray for code blocks
+          gray: "#666666",         // Medium gray for secondary text
+          darkgray: "#2c2c2c",     // Dark gray for body text
+          dark: "#000000",         // Pure black for headers
+          secondary: "#c9a961",    // Matte gold/aurum for links
+          tertiary: "#b8995a",     // Darker matte gold for hover
+          highlight: "rgba(201, 169, 97, 0.15)", // Subtle gold highlight
         },
       },
     },

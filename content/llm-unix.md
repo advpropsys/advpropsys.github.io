@@ -24,6 +24,15 @@ i think your computer should come with it. like sed, curl, grep, cron, or vim.
 
 here's some fun stuff i've found i can do with it.
 
+i think your computer should come with it. like sed, curl, grep, cron, or vim.
+
+here's some fun stuff i've found i can do with it.
+i think your computer should come with it. like sed, curl, grep, cron, or vim.
+
+here's some fun stuff i've found i can do with it.
+
+
+
 ---
 
 ## summarization d(a)emon
